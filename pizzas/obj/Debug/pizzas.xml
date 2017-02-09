@@ -1,0 +1,3701 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+pizzas
+</name>
+</assembly>
+<members>
+<member name="T:pizzas.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:pizzas.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:pizzas.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:pizzas.My.Resources.Resources.Home_Manager_Logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:pizzas.My.Resources.Resources.Manager">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:pizzas.My.Resources.Resources.pizza_delivery__">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.addressDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.customersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.departmentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.employeeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.ingredientsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.itemsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.loginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.orderdetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.ordersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.payment_typeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.payrollDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.purchaseorderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.rawmaterialsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.vehiclesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.vendorDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.customers_by_ordersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.inventoryreportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.po_reportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.addressRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.customersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.departmentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.employeeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.ingredientsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.itemsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.loginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.orderdetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.ordersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.payment_typeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.payrollRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.purchaseorderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.rawmaterialsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.vehiclesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.vendorRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.customers_by_ordersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.inventoryreportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.po_reportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.addressRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.customersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.departmentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.employeeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.ingredientsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.itemsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.loginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.orderdetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.ordersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.payment_typeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.payrollRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.purchaseorderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.rawmaterialsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.vehiclesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.vendorRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.customers_by_ordersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.inventoryreportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet.po_reportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSetTableAdapters.addressTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSetTableAdapters.customersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSetTableAdapters.departmentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSetTableAdapters.employeeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSetTableAdapters.ingredientsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSetTableAdapters.itemsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSetTableAdapters.loginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSetTableAdapters.orderdetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSetTableAdapters.ordersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSetTableAdapters.payment_typeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSetTableAdapters.payrollTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSetTableAdapters.purchaseorderTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSetTableAdapters.rawmaterialsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSetTableAdapters.vehiclesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSetTableAdapters.vendorTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSetTableAdapters.customers_by_ordersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSetTableAdapters.inventoryreportTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSetTableAdapters.po_reportTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(pizzas.pizzaDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(pizzas.pizzaDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(pizzas.pizzaDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSetTableAdapters.TableAdapterManager.UpdateAll(pizzas.pizzaDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.addressDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.customersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.departmentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.employeeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.ingredientsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.itemsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.loginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.orderdetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.ordersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.payment_typeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.payrollDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.purchaseorderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.rawmaterialsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.vehiclesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.vendorDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.addressRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.customersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.departmentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.employeeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.ingredientsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.itemsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.loginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.orderdetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.ordersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.payment_typeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.payrollRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.purchaseorderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.rawmaterialsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.vehiclesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.vendorRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.addressRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.customersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.departmentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.employeeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.ingredientsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.itemsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.loginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.orderdetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.ordersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.payment_typeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.payrollRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.purchaseorderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.rawmaterialsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.vehiclesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1.vendorRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1TableAdapters.addressTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1TableAdapters.customersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1TableAdapters.departmentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1TableAdapters.employeeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1TableAdapters.ingredientsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1TableAdapters.itemsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1TableAdapters.loginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1TableAdapters.orderdetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1TableAdapters.ordersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1TableAdapters.payment_typeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1TableAdapters.payrollTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1TableAdapters.purchaseorderTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1TableAdapters.rawmaterialsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1TableAdapters.vehiclesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1TableAdapters.vendorTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(pizzas.pizzaDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(pizzas.pizzaDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(pizzas.pizzaDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSet1TableAdapters.TableAdapterManager.UpdateAll(pizzas.pizzaDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet2.inventryreportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet2.inventryreportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet2.inventryreportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet2TableAdapters.inventryreportTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(pizzas.pizzaDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(pizzas.pizzaDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(pizzas.pizzaDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSet2TableAdapters.TableAdapterManager.UpdateAll(pizzas.pizzaDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet3.posreportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet3.posreportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet3.posreportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet3TableAdapters.posreportTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(pizzas.pizzaDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(pizzas.pizzaDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(pizzas.pizzaDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSet3TableAdapters.TableAdapterManager.UpdateAll(pizzas.pizzaDataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.addressDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.customersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.departmentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.employeeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.ingredientsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.itemsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.loginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.offersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.orderdetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.ordersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.payment_typeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.payrollDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.purchaseorderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.rawmaterialsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.vehiclesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.vendorDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.customerorderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.customerorderhistoryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.custordersviewDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.empsalaryhiredbeforedateDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.empviewscurrentordersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.ingredientsbasedonstocklevelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.inventryreportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.itemshavingrawmaterialslessthanstockminlevelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.managerviewsemployeedetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.managerviewssalesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.posreportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.purchaseordersbydateDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.purchaseordersreceivedlastmonthDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.salesreportbymonthDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.topcustomersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.toppingsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.addressRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.customersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.departmentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.employeeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.ingredientsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.itemsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.loginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.offersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.orderdetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.ordersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.payment_typeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.payrollRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.purchaseorderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.rawmaterialsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.vehiclesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.vendorRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.customerorderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.customerorderhistoryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.custordersviewRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.empsalaryhiredbeforedateRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.empviewscurrentordersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.ingredientsbasedonstocklevelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.inventryreportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.itemshavingrawmaterialslessthanstockminlevelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.managerviewsemployeedetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.managerviewssalesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.posreportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.purchaseordersbydateRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.purchaseordersreceivedlastmonthRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.salesreportbymonthRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.topcustomersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.toppingsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.addressRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.customersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.departmentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.employeeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.ingredientsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.itemsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.loginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.offersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.orderdetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.ordersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.payment_typeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.payrollRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.purchaseorderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.rawmaterialsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.vehiclesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.vendorRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.customerorderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.customerorderhistoryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.custordersviewRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.empsalaryhiredbeforedateRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.empviewscurrentordersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.ingredientsbasedonstocklevelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.inventryreportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.itemshavingrawmaterialslessthanstockminlevelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.managerviewsemployeedetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.managerviewssalesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.posreportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.purchaseordersbydateRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.purchaseordersreceivedlastmonthRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.salesreportbymonthRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.topcustomersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4.toppingsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4TableAdapters.addressTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4TableAdapters.customersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4TableAdapters.departmentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4TableAdapters.employeeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4TableAdapters.ingredientsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4TableAdapters.itemsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4TableAdapters.loginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4TableAdapters.offersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4TableAdapters.orderdetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4TableAdapters.ordersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4TableAdapters.payment_typeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4TableAdapters.payrollTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4TableAdapters.purchaseorderTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4TableAdapters.rawmaterialsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4TableAdapters.vehiclesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4TableAdapters.vendorTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4TableAdapters.customerorderTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4TableAdapters.customerorderhistoryTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4TableAdapters.custordersviewTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4TableAdapters.empsalaryhiredbeforedateTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4TableAdapters.empviewscurrentordersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4TableAdapters.ingredientsbasedonstocklevelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4TableAdapters.inventryreportTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4TableAdapters.itemshavingrawmaterialslessthanstockminlevelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4TableAdapters.managerviewsemployeedetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4TableAdapters.managerviewssalesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4TableAdapters.posreportTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4TableAdapters.purchaseordersbydateTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4TableAdapters.purchaseordersreceivedlastmonthTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4TableAdapters.salesreportbymonthTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4TableAdapters.topcustomersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4TableAdapters.toppingsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(pizzas.pizzaDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(pizzas.pizzaDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(pizzas.pizzaDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSet4TableAdapters.TableAdapterManager.UpdateAll(pizzas.pizzaDataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.addressDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.customersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.departmentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.employeeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.ingredientsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.itemsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.loginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.offersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.orderdetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.ordersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.payment_typeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.payrollDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.purchaseorderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.rawmaterialsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.vehiclesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.vendorDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.customerorderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.customerorderhistoryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.custordersviewDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.empsalaryhiredbeforedateDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.empviewscurrentordersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.ingredientsbasedonstocklevelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.inventryreportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.itemshavingrawmaterialslessthanstockminlevelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.managerviewsemployeedetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.managerviewssalesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.posreportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.purchaseordersbydateDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.purchaseordersreceivedlastmonthDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.salesreportbymonthDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.topcustomersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.toppingsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.addressRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.customersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.departmentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.employeeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.ingredientsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.itemsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.loginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.offersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.orderdetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.ordersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.payment_typeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.payrollRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.purchaseorderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.rawmaterialsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.vehiclesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.vendorRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.customerorderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.customerorderhistoryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.custordersviewRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.empsalaryhiredbeforedateRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.empviewscurrentordersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.ingredientsbasedonstocklevelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.inventryreportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.itemshavingrawmaterialslessthanstockminlevelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.managerviewsemployeedetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.managerviewssalesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.posreportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.purchaseordersbydateRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.purchaseordersreceivedlastmonthRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.salesreportbymonthRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.topcustomersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.toppingsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.addressRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.customersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.departmentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.employeeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.ingredientsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.itemsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.loginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.offersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.orderdetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.ordersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.payment_typeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.payrollRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.purchaseorderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.rawmaterialsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.vehiclesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.vendorRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.customerorderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.customerorderhistoryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.custordersviewRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.empsalaryhiredbeforedateRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.empviewscurrentordersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.ingredientsbasedonstocklevelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.inventryreportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.itemshavingrawmaterialslessthanstockminlevelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.managerviewsemployeedetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.managerviewssalesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.posreportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.purchaseordersbydateRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.purchaseordersreceivedlastmonthRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.salesreportbymonthRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.topcustomersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5.toppingsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5TableAdapters.addressTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5TableAdapters.customersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5TableAdapters.departmentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5TableAdapters.employeeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5TableAdapters.ingredientsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5TableAdapters.itemsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5TableAdapters.loginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5TableAdapters.offersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5TableAdapters.orderdetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5TableAdapters.ordersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5TableAdapters.payment_typeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5TableAdapters.payrollTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5TableAdapters.purchaseorderTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5TableAdapters.rawmaterialsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5TableAdapters.vehiclesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5TableAdapters.vendorTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5TableAdapters.customerorderTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5TableAdapters.customerorderhistoryTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5TableAdapters.custordersviewTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5TableAdapters.empsalaryhiredbeforedateTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5TableAdapters.empviewscurrentordersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5TableAdapters.ingredientsbasedonstocklevelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5TableAdapters.inventryreportTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5TableAdapters.itemshavingrawmaterialslessthanstockminlevelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5TableAdapters.managerviewsemployeedetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5TableAdapters.managerviewssalesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5TableAdapters.posreportTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5TableAdapters.purchaseordersbydateTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5TableAdapters.purchaseordersreceivedlastmonthTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5TableAdapters.salesreportbymonthTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5TableAdapters.topcustomersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5TableAdapters.toppingsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(pizzas.pizzaDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(pizzas.pizzaDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(pizzas.pizzaDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSet5TableAdapters.TableAdapterManager.UpdateAll(pizzas.pizzaDataSet5)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.addressDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.customersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.departmentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.employeeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.ingredientsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.itemsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.loginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.offersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.orderdetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.ordersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.payment_typeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.payrollDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.purchaseorderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.rawmaterialsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.vehiclesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.vendorDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.customerorderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.customerorderhistoryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.custordersviewDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.empsalaryhiredbeforedateDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.empviewscurrentordersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.ingredientsbasedonstocklevelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.inventryreportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.itemshavingrawmaterialslessthanstockminlevelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.managerviewsemployeedetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.managerviewssalesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.posreportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.purchaseordersbydateDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.purchaseordersreceivedlastmonthDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.salesreportbymonthDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.topcustomersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.toppingsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.addressRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.customersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.departmentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.employeeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.ingredientsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.itemsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.loginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.offersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.orderdetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.ordersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.payment_typeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.payrollRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.purchaseorderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.rawmaterialsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.vehiclesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.vendorRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.customerorderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.customerorderhistoryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.custordersviewRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.empsalaryhiredbeforedateRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.empviewscurrentordersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.ingredientsbasedonstocklevelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.inventryreportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.itemshavingrawmaterialslessthanstockminlevelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.managerviewsemployeedetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.managerviewssalesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.posreportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.purchaseordersbydateRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.purchaseordersreceivedlastmonthRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.salesreportbymonthRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.topcustomersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.toppingsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.addressRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.customersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.departmentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.employeeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.ingredientsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.itemsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.loginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.offersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.orderdetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.ordersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.payment_typeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.payrollRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.purchaseorderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.rawmaterialsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.vehiclesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.vendorRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.customerorderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.customerorderhistoryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.custordersviewRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.empsalaryhiredbeforedateRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.empviewscurrentordersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.ingredientsbasedonstocklevelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.inventryreportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.itemshavingrawmaterialslessthanstockminlevelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.managerviewsemployeedetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.managerviewssalesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.posreportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.purchaseordersbydateRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.purchaseordersreceivedlastmonthRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.salesreportbymonthRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.topcustomersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6.toppingsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6TableAdapters.addressTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6TableAdapters.customersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6TableAdapters.departmentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6TableAdapters.employeeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6TableAdapters.ingredientsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6TableAdapters.itemsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6TableAdapters.loginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6TableAdapters.offersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6TableAdapters.orderdetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6TableAdapters.ordersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6TableAdapters.payment_typeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6TableAdapters.payrollTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6TableAdapters.purchaseorderTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6TableAdapters.rawmaterialsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6TableAdapters.vehiclesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6TableAdapters.vendorTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6TableAdapters.customerorderTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6TableAdapters.customerorderhistoryTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6TableAdapters.custordersviewTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6TableAdapters.empsalaryhiredbeforedateTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6TableAdapters.empviewscurrentordersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6TableAdapters.ingredientsbasedonstocklevelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6TableAdapters.inventryreportTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6TableAdapters.itemshavingrawmaterialslessthanstockminlevelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6TableAdapters.managerviewsemployeedetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6TableAdapters.managerviewssalesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6TableAdapters.posreportTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6TableAdapters.purchaseordersbydateTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6TableAdapters.purchaseordersreceivedlastmonthTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6TableAdapters.salesreportbymonthTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6TableAdapters.topcustomersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6TableAdapters.toppingsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(pizzas.pizzaDataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(pizzas.pizzaDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(pizzas.pizzaDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSet6TableAdapters.TableAdapterManager.UpdateAll(pizzas.pizzaDataSet6)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.addressDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.customersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.departmentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.employeeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.ingredientsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.itemsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.loginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.offersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.orderdetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.ordersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.passwordDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.payment_typeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.payrollDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.purchaseorderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.rawmaterialsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.vehiclesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.vendorDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.amountonpobvndorsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.customerorderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.customerorderhistoryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.custordersviewDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.empsalaryhiredbeforedateDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.empviewscurrentordersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.ingredientsbasedonstocklevelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.inventryreportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.itemshavingrawmaterialslessthanstockminlevelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.managerviewsemployeedetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.managerviewssalesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.posreportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.purchaseordersbydateDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.purchaseordersreceivedlastmonthDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.salesreportbymonthDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.topcustomersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.toppingsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.addressRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.customersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.departmentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.employeeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.ingredientsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.itemsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.loginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.offersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.orderdetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.ordersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.passwordRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.payment_typeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.payrollRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.purchaseorderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.rawmaterialsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.vehiclesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.vendorRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.amountonpobvndorsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.customerorderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.customerorderhistoryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.custordersviewRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.empsalaryhiredbeforedateRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.empviewscurrentordersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.ingredientsbasedonstocklevelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.inventryreportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.itemshavingrawmaterialslessthanstockminlevelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.managerviewsemployeedetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.managerviewssalesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.posreportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.purchaseordersbydateRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.purchaseordersreceivedlastmonthRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.salesreportbymonthRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.topcustomersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.toppingsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.addressRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.customersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.departmentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.employeeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.ingredientsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.itemsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.loginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.offersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.orderdetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.ordersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.passwordRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.payment_typeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.payrollRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.purchaseorderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.rawmaterialsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.vehiclesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.vendorRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.amountonpobvndorsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.customerorderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.customerorderhistoryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.custordersviewRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.empsalaryhiredbeforedateRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.empviewscurrentordersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.ingredientsbasedonstocklevelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.inventryreportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.itemshavingrawmaterialslessthanstockminlevelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.managerviewsemployeedetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.managerviewssalesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.posreportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.purchaseordersbydateRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.purchaseordersreceivedlastmonthRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.salesreportbymonthRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.topcustomersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7.toppingsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7TableAdapters.addressTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7TableAdapters.customersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7TableAdapters.departmentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7TableAdapters.employeeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7TableAdapters.ingredientsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7TableAdapters.itemsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7TableAdapters.loginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7TableAdapters.offersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7TableAdapters.orderdetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7TableAdapters.ordersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7TableAdapters.passwordTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7TableAdapters.payment_typeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7TableAdapters.payrollTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7TableAdapters.purchaseorderTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7TableAdapters.rawmaterialsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7TableAdapters.vehiclesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7TableAdapters.vendorTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7TableAdapters.amountonpobvndorsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7TableAdapters.customerorderTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7TableAdapters.customerorderhistoryTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7TableAdapters.custordersviewTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7TableAdapters.empsalaryhiredbeforedateTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7TableAdapters.empviewscurrentordersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7TableAdapters.ingredientsbasedonstocklevelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7TableAdapters.inventryreportTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7TableAdapters.itemshavingrawmaterialslessthanstockminlevelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7TableAdapters.managerviewsemployeedetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7TableAdapters.managerviewssalesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7TableAdapters.posreportTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7TableAdapters.purchaseordersbydateTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7TableAdapters.purchaseordersreceivedlastmonthTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7TableAdapters.salesreportbymonthTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7TableAdapters.topcustomersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7TableAdapters.toppingsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(pizzas.pizzaDataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(pizzas.pizzaDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(pizzas.pizzaDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:pizzas.pizzaDataSet7TableAdapters.TableAdapterManager.UpdateAll(pizzas.pizzaDataSet7)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:pizzas.pizzaDataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

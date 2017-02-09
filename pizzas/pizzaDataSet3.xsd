@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="pizzaDataSet3" targetNamespace="http://tempuri.org/pizzaDataSet3.xsd" xmlns:mstns="http://tempuri.org/pizzaDataSet3.xsd" xmlns="http://tempuri.org/pizzaDataSet3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="pizzaConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="pizzaConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.pizzas.My.MySettings.GlobalReference.Default.pizzaConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="posreportTableAdapter" GeneratorDataComponentClassName="posreportTableAdapter" Name="posreport" UserDataComponentName="posreportTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="pizzaConnectionString (MySettings)" DbObjectName="pizza.posreport" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `Customer_id`, `Order_date`, `Order_id`, `Order_price`, `Item_id`, `Item_quantity` FROM `pizza`.`posreport`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Customer_id" DataSetColumn="Customer_id" />
+              <Mapping SourceColumn="Order_date" DataSetColumn="Order_date" />
+              <Mapping SourceColumn="Order_id" DataSetColumn="Order_id" />
+              <Mapping SourceColumn="Order_price" DataSetColumn="Order_price" />
+              <Mapping SourceColumn="Item_id" DataSetColumn="Item_id" />
+              <Mapping SourceColumn="Item_quantity" DataSetColumn="Item_quantity" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="pizzaDataSet3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="pizzaDataSet3" msprop:Generator_UserDSName="pizzaDataSet3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="posreport" msprop:Generator_TableClassName="posreportDataTable" msprop:Generator_TableVarName="tableposreport" msprop:Generator_TablePropName="posreport" msprop:Generator_RowDeletingName="posreportRowDeleting" msprop:Generator_RowChangingName="posreportRowChanging" msprop:Generator_RowEvHandlerName="posreportRowChangeEventHandler" msprop:Generator_RowDeletedName="posreportRowDeleted" msprop:Generator_UserTableName="posreport" msprop:Generator_RowChangedName="posreportRowChanged" msprop:Generator_RowEvArgName="posreportRowChangeEvent" msprop:Generator_RowClassName="posreportRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Customer_id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnCustomer_id" msprop:Generator_ColumnPropNameInRow="Customer_id" msprop:Generator_ColumnPropNameInTable="Customer_idColumn" msprop:Generator_UserColumnName="Customer_id" type="xs:int" />
+              <xs:element name="Order_date" msprop:Generator_ColumnVarNameInTable="columnOrder_date" msprop:Generator_ColumnPropNameInRow="Order_date" msprop:Generator_ColumnPropNameInTable="Order_dateColumn" msprop:Generator_UserColumnName="Order_date" type="xs:dateTime" />
+              <xs:element name="Order_id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnOrder_id" msprop:Generator_ColumnPropNameInRow="Order_id" msprop:Generator_ColumnPropNameInTable="Order_idColumn" msprop:Generator_UserColumnName="Order_id" type="xs:int" />
+              <xs:element name="Order_price" msprop:Generator_ColumnVarNameInTable="columnOrder_price" msprop:Generator_ColumnPropNameInRow="Order_price" msprop:Generator_ColumnPropNameInTable="Order_priceColumn" msprop:Generator_UserColumnName="Order_price" type="xs:decimal" />
+              <xs:element name="Item_id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnItem_id" msprop:Generator_ColumnPropNameInRow="Item_id" msprop:Generator_ColumnPropNameInTable="Item_idColumn" msprop:Generator_UserColumnName="Item_id" type="xs:int" />
+              <xs:element name="Item_quantity" msprop:Generator_ColumnVarNameInTable="columnItem_quantity" msprop:Generator_ColumnPropNameInRow="Item_quantity" msprop:Generator_ColumnPropNameInTable="Item_quantityColumn" msprop:Generator_UserColumnName="Item_quantity" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:posreport" />
+      <xs:field xpath="mstns:Customer_id" />
+      <xs:field xpath="mstns:Order_id" />
+      <xs:field xpath="mstns:Item_id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

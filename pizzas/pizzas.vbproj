@@ -13,6 +13,22 @@
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>https://github.com/gujju1j/Pizza-Delivery--Manager-Portal/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>https://github.com/gujju1j/Pizza-Delivery--Manager-Portal/</InstallUrl>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -46,7 +62,11 @@
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -72,11 +92,42 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include="AboutEmpForm.Designer.vb">
+      <DependentUpon>AboutEmpForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutEmpForm.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="AddEmployeeForm.Designer.vb">
+      <DependentUpon>AddEmployeeForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddEmployeeForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Create PO.Designer.vb">
+      <DependentUpon>Create PO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Create PO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataAccess.vb" />
+    <Compile Include="DBconnect.vb" />
+    <Compile Include="EmployeesViewForm.Designer.vb">
+      <DependentUpon>EmployeesViewForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeesViewForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventoryForm.Designer.vb">
+      <DependentUpon>InventoryForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerForm.Designer.vb">
+      <DependentUpon>ManagerForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerForm.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -94,16 +145,129 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="pizzaDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>pizzaDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="pizzaDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>pizzaDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="pizzaDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>pizzaDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="pizzaDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>pizzaDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="pizzaDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>pizzaDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="pizzaDataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>pizzaDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="pizzaDataSet6.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>pizzaDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="pizzaDataSet7.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>pizzaDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="pizzasRawmaterialLessStock.Designer.vb">
+      <DependentUpon>pizzasRawmaterialLessStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pizzasRawmaterialLessStock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sales Report of last three months.Designer.vb">
+      <DependentUpon>Sales Report of last three months.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sales Report of last three months.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesForm.Designer.vb">
+      <DependentUpon>SalesForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SalesForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateEmpForm.Designer.vb">
+      <DependentUpon>UpdateEmpForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateEmpForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewAllPO.Designer.vb">
+      <DependentUpon>ViewAllPO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewAllPO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIewPo.Designer.vb">
+      <DependentUpon>VIewPo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIewPo.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AboutEmpForm.resx">
+      <DependentUpon>AboutEmpForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEmployeeForm.resx">
+      <DependentUpon>AddEmployeeForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Create PO.resx">
+      <DependentUpon>Create PO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeesViewForm.resx">
+      <DependentUpon>EmployeesViewForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryForm.resx">
+      <DependentUpon>InventoryForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerForm.resx">
+      <DependentUpon>ManagerForm.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="pizzasRawmaterialLessStock.resx">
+      <DependentUpon>pizzasRawmaterialLessStock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales Report of last three months.resx">
+      <DependentUpon>Sales Report of last three months.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesForm.resx">
+      <DependentUpon>SalesForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateEmpForm.resx">
+      <DependentUpon>UpdateEmpForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewAllPO.resx">
+      <DependentUpon>ViewAllPO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIewPo.resx">
+      <DependentUpon>VIewPo.vb</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -114,6 +278,115 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+    <None Include="pizzaDataSet.xsc">
+      <DependentUpon>pizzaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="pizzaDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>pizzaDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="pizzaDataSet.xss">
+      <DependentUpon>pizzaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="pizzaDataSet1.xsc">
+      <DependentUpon>pizzaDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="pizzaDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>pizzaDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="pizzaDataSet1.xss">
+      <DependentUpon>pizzaDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="pizzaDataSet2.xsc">
+      <DependentUpon>pizzaDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="pizzaDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>pizzaDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="pizzaDataSet2.xss">
+      <DependentUpon>pizzaDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="pizzaDataSet3.xsc">
+      <DependentUpon>pizzaDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="pizzaDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>pizzaDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="pizzaDataSet3.xss">
+      <DependentUpon>pizzaDataSet3.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pizzaDataSet4.xsc">
+      <DependentUpon>pizzaDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="pizzaDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>pizzaDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="pizzaDataSet4.xss">
+      <DependentUpon>pizzaDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="pizzaDataSet5.xsc">
+      <DependentUpon>pizzaDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="pizzaDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>pizzaDataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="pizzaDataSet5.xss">
+      <DependentUpon>pizzaDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="pizzaDataSet6.xsc">
+      <DependentUpon>pizzaDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="pizzaDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>pizzaDataSet6.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="pizzaDataSet6.xss">
+      <DependentUpon>pizzaDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="pizzaDataSet7.xsc">
+      <DependentUpon>pizzaDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="pizzaDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>pizzaDataSet7.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="pizzaDataSet7.xss">
+      <DependentUpon>pizzaDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\pizza delivery...jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manager.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home-Manager-Logo.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
