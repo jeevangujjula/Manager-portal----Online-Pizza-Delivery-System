@@ -7,7 +7,7 @@
     Private Sub empIdTextBox_TextChanged(sender As Object, e As EventArgs) Handles empIdTextBox.TextChanged
 
     End Sub
-
+    'View employee details
     Private Sub viewEmpButton_Click(sender As Object, e As EventArgs) Handles viewEmpButton.Click
 
         Dim i As Integer = 0
@@ -43,8 +43,7 @@
         dtTable = dbAccess.GetAllEmpDetails()
         DataGridView1.DataSource = dtTable
     End Sub
-
-
+    'Employee details update 
     Private Sub EmpUpdateButton_Click(sender As Object, e As EventArgs) Handles EmpUpdateButton.Click
         Dim objref As New UpdateEmpForm
         Dim i As Integer = 0
@@ -71,7 +70,7 @@
         End If
 
     End Sub
-
+    'delete employee details
     Private Sub DelEmpButton_Click(sender As Object, e As EventArgs) Handles DelEmpButton.Click
 
         Dim i As Integer = 0

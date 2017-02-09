@@ -1,14 +1,17 @@
 ﻿
 Imports MySql.Data.MySqlClient
 Public Class DBconnect
+
+    'create databse connection string
     Public Shared strConnect As String
     Public Shared UserId As String
     Public Function GetConnection() As MySqlConnection
         'Connection to the server
-        strConnect = "server=141.209.241.44;user id=gujju1j;password=passinit;database=pizza"
+        strConnect = "server=141.209.241.44;user id=gujju1j;password=*******;database=pizza"
         Dim oconn As MySqlConnection = New MySqlConnection(strConnect)
         Return oconn
     End Function
+    'select statements exceutable function
     Public Function ExecuteSelectTable(ByVal strSQL As String) As DataTable
         Dim oconn As MySqlConnection = GetConnection()
         Dim dt As New DataTable
@@ -19,6 +22,7 @@ Public Class DBconnect
         da.Dispose()
         Return dt
     End Function
+    'Insert, Update, Delet executable function
     Public Function ExecuteInsUpdDel(ByVal strSQL As String,
                                  Optional ByVal ReturnID As Boolean = False) As Integer
         Dim oconn As MySqlConnection = GetConnection()

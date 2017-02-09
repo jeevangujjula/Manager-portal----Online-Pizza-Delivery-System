@@ -1,9 +1,11 @@
 ﻿Imports System.Text.RegularExpressions
 Public Class AddEmployeeForm
     Dim dbAccess As DataAccess
+    ' subit button call for adding an employee
     Private Sub SubmitButton_Click(sender As Object, e As EventArgs) Handles SubmitButton.Click
         dbAccess = New DataAccess()
         Dim regStatus As Integer = 0
+        ' validating birthdate or hiredate of an employee not to be greater than today'sdate
         If birthDateTimePicker.Value >= Date.Today Then
             MessageBox.Show("Please select date lesser than today's date", "Birth Date", MessageBoxButtons.OK, MessageBoxIcon.Error)
             Exit Sub
@@ -11,17 +13,18 @@ Public Class AddEmployeeForm
             MessageBox.Show("Please select date lesser than today's date", "Hire Date", MessageBoxButtons.OK, MessageBoxIcon.Error)
             Exit Sub
         End If
-        'Else
+        'Validating empty first name field
         If Me.fnameTextBox.Text = "" Then
-                Me.fnameTextBox.Focus()
-                MsgBox("You must enter a First Name.")
-                Exit Sub
-            ElseIf Not Regex.Match(fnameTextBox.Text, "^[a-z]*$", RegexOptions.IgnoreCase).Success Then
-                MessageBox.Show("Please enter alphabetic characters only!", "First Name", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            Me.fnameTextBox.Focus()
+            MsgBox("You must enter a First Name.")
+            Exit Sub
+        ElseIf Not Regex.Match(fnameTextBox.Text, "^[a-z]*$", RegexOptions.IgnoreCase).Success Then
+            MessageBox.Show("Please enter alphabetic characters only!", "First Name", MessageBoxButtons.OK, MessageBoxIcon.Information)
             fnameTextBox.Clear()
             fnameTextBox.Focus()
             Exit Sub
         End If
+        'Validating empty last name field
         If Me.lnameTextBox.Text = "" Then
             Me.lnameTextBox.Focus()
             MsgBox("You must enter a Last Name.")
@@ -32,6 +35,7 @@ Public Class AddEmployeeForm
             lnameTextBox.Focus()
             Exit Sub
         End If
+        'Validating empty phone field
         If Me.phoneTextBox.Text = "" Then
             Me.phoneTextBox.Focus()
             MsgBox("You must enter a Phone.")
@@ -42,6 +46,7 @@ Public Class AddEmployeeForm
             phoneTextBox.Focus()
             Exit Sub
         End If
+        'Validating empty Email field
         If Me.emailTextBox.Text = "" Then
             Me.emailTextBox.Focus()
             MsgBox("You must enter a Email Id.")
@@ -54,15 +59,19 @@ Public Class AddEmployeeForm
             Exit Sub
         End If
 
+        ' setting tabindex and drop down for supervisor combo box true
         Me.reportsToComboBox.TabIndex.Equals(0)
         reportsToComboBox.DroppedDown = True
 
+        ' setting focus and drop down for employee department combo box true
         Me.deptComboBox.Focus()
         deptComboBox.DroppedDown = True
 
+        ' setting focus and drop down for supervisor combo box true
         Me.AddrtypeComboBox.Focus()
         AddrtypeComboBox.DroppedDown = True
 
+        ' validating addressline for empty entries and alphanumericentries
         Me.AddrLineTextBox.Focus()
         If Me.AddrLineTextBox.Text = "" Then
             MsgBox("You must enter an Address.")
@@ -73,6 +82,7 @@ Public Class AddEmployeeForm
             AddrLineTextBox.Focus()
             Exit Sub
         End If
+        'validating city fild with non-empty and alphabets
         If Me.CityTextBox.Text = "" Then
             Me.CityTextBox.Focus()
             MsgBox("You must enter a City.")
@@ -83,6 +93,7 @@ Public Class AddEmployeeForm
             CityTextBox.Focus()
             Exit Sub
         End If
+        'validating zip fild with non-empty and numbers
         If Me.zipTextBox.Text = "" Then
             Me.zipTextBox.Focus()
             MsgBox("You must enter a Zip.")
@@ -95,11 +106,12 @@ Public Class AddEmployeeForm
         End If
         ' End If
 
+        'sen employee details to insert in to employee table
         regStatus = dbAccess.InsertEmployeeDetails(fnameTextBox.Text, lnameTextBox.Text, phoneTextBox.Text, emailTextBox.Text, reportsToComboBox.SelectedItem, deptComboBox.SelectedItem, birthDateTimePicker.Value, hireDateTimePicker.Value, AddrtypeComboBox.SelectedItem, AddrLineTextBox.Text, CityTextBox.Text, zipTextBox.Text)
 
         Me.Close()
     End Sub
-
+    ' actions to be performed when Addempform is loaded
     Private Sub AddEmployeeForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.fnameTextBox.Focus()
         AddrtypeComboBox.DropDownStyle = ComboBoxStyle.DropDownList
@@ -119,16 +131,7 @@ Public Class AddEmployeeForm
         deptComboBox.Items.Add("4")
 
     End Sub
-    Public Function validateName(ByVal name As String) As Boolean
-
-        If Not Regex.Match(name, "^[a-z]*$", RegexOptions.IgnoreCase).Success Then
-            MessageBox.Show("Please Enter Alphabetic Characters Only!")
-            fnameTextBox.Focus()
-            fnameTextBox.Clear()
-        End If
-        Return True
-    End Function
-
+    'clears all fields data in the form
     Private Sub ClearAllButton_Click(sender As Object, e As EventArgs) Handles ClearAllButton.Click
         fnameTextBox.Clear()
         lnameTextBox.Clear()

@@ -27,11 +27,11 @@
 
         Me.Close()
     End Sub
-
+    'do nothing
     Private Sub Create_PO_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
-
+    'close the form
     Private Sub CancelBtn_Click(sender As Object, e As EventArgs) Handles CancelBtn.Click
         Me.Close()
     End Sub

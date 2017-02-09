@@ -145,41 +145,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="pizzaDataSet.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>pizzaDataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="pizzaDataSet1.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>pizzaDataSet1.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="pizzaDataSet2.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>pizzaDataSet2.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="pizzaDataSet3.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>pizzaDataSet3.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="pizzaDataSet4.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>pizzaDataSet4.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="pizzaDataSet5.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>pizzaDataSet5.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="pizzaDataSet6.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>pizzaDataSet6.xsd</DependentUpon>
-    </Compile>
     <Compile Include="pizzaDataSet7.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -278,50 +243,6 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
-    <None Include="pizzaDataSet.xsc">
-      <DependentUpon>pizzaDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="pizzaDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>pizzaDataSet.Designer.vb</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="pizzaDataSet.xss">
-      <DependentUpon>pizzaDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="pizzaDataSet1.xsc">
-      <DependentUpon>pizzaDataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="pizzaDataSet1.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>pizzaDataSet1.Designer.vb</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="pizzaDataSet1.xss">
-      <DependentUpon>pizzaDataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="pizzaDataSet2.xsc">
-      <DependentUpon>pizzaDataSet2.xsd</DependentUpon>
-    </None>
-    <None Include="pizzaDataSet2.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>pizzaDataSet2.Designer.vb</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="pizzaDataSet2.xss">
-      <DependentUpon>pizzaDataSet2.xsd</DependentUpon>
-    </None>
-    <None Include="pizzaDataSet3.xsc">
-      <DependentUpon>pizzaDataSet3.xsd</DependentUpon>
-    </None>
-    <None Include="pizzaDataSet3.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>pizzaDataSet3.Designer.vb</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="pizzaDataSet3.xss">
-      <DependentUpon>pizzaDataSet3.xsd</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
@@ -336,39 +257,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <None Include="pizzaDataSet4.xsc">
-      <DependentUpon>pizzaDataSet4.xsd</DependentUpon>
-    </None>
-    <None Include="pizzaDataSet4.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>pizzaDataSet4.Designer.vb</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="pizzaDataSet4.xss">
-      <DependentUpon>pizzaDataSet4.xsd</DependentUpon>
-    </None>
-    <None Include="pizzaDataSet5.xsc">
-      <DependentUpon>pizzaDataSet5.xsd</DependentUpon>
-    </None>
-    <None Include="pizzaDataSet5.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>pizzaDataSet5.Designer.vb</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="pizzaDataSet5.xss">
-      <DependentUpon>pizzaDataSet5.xsd</DependentUpon>
-    </None>
-    <None Include="pizzaDataSet6.xsc">
-      <DependentUpon>pizzaDataSet6.xsd</DependentUpon>
-    </None>
-    <None Include="pizzaDataSet6.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>pizzaDataSet6.Designer.vb</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="pizzaDataSet6.xss">
-      <DependentUpon>pizzaDataSet6.xsd</DependentUpon>
-    </None>
     <None Include="pizzaDataSet7.xsc">
       <DependentUpon>pizzaDataSet7.xsd</DependentUpon>
     </None>
